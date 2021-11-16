@@ -49,9 +49,22 @@
             margin-left: 15px !important;
             box-shadow: 6px 6px 2px 1px #111B47 !important;
         }
-        .explore_button:hover {background-color: rgb(44, 9, 141); box-shadow: 6px 6px 2px 1px #090e25;}
-        .explore_button:focus {background-color: rgb(44, 9, 141); box-shadow: 6px 6px 2px 1px #090e25;}
-        .explore_button:active {background-color: rgb(44, 9, 141); box-shadow: 6px 6px 2px 1px #090e25;}
+        .explore_button:focus {background-color: rgb(44, 9, 141) !important; box-shadow: 6px 6px 2px 1px #090e25 !important;}
+        .explore_button:active {background-color: rgb(44, 9, 141) !important; box-shadow: 6px 6px 2px 1px #090e25 !important;}
+        .explore_extra {
+            width: 100% !important;
+            height: 330px !important;
+            text-align: center !important;
+            margin-top: 40px !important;
+            margin-left: 0 !important;
+        }
+        .explore_extra_text {
+            font-size: 18px !important;
+            padding: 20px 10px !important;
+        }
+        .fresko {
+            font-size: 17px !important;
+        }        
         .fone2 {
             width: 100% !important;
             height: 50vh !important;
@@ -118,9 +131,9 @@
             font-size: 9px !important;
             padding: 4px 0 !important;
         }
-        .contacts_link:hover {color: rgb(104, 103, 103);}
-        .contacts_link:focus {color: rgb(104, 103, 103);}
-        .contacts_link:active {color: rgb(104, 103, 103);}
+        .contacts_link:hover {color: rgb(104, 103, 103) !important;}
+        .contacts_link:focus {color: rgb(104, 103, 103) !important;}
+        .contacts_link:active {color: rgb(104, 103, 103) !important;}
          .projects {
             width: 33% !important;
             flex-direction: column !important;
@@ -141,9 +154,8 @@
             font-size: 9px !important;
             padding: 4px 0 !important;
         }
-        .projects_link:hover {color: rgb(104, 103, 103);}
-        .projects_link:focus {color: rgb(104, 103, 103);}
-        .projects_link:active {color: rgb(104, 103, 103);}
+        .projects_link:focus {color: rgb(104, 103, 103) !important;}
+        .projects_link:active {color: rgb(104, 103, 103) !important;}
          .extra {
             width: 33% !important;
             flex-direction: column !important;
@@ -164,9 +176,8 @@
             font-size: 9px !important;
             padding: 4px 0 !important;
         }
-        .extra_link:hover {color: rgb(104, 103, 103);}
-        .extra_link:focus {color: rgb(104, 103, 103);}
-        .extra_link:active {color: rgb(104, 103, 103);}
+        .extra_link:focus {color: rgb(104, 103, 103) !important;}
+        .extra_link:active {color: rgb(104, 103, 103) !important;}
   }
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
@@ -604,7 +615,7 @@ body {
 /* */
 .explore {
     width: 700px;
-    margin-top: 250px;
+    margin-top: 100px;
     flex-direction: column;
 }
 .explore_title {
@@ -629,6 +640,27 @@ body {
 .explore_button:hover {background-color: rgb(44, 9, 141); box-shadow: 12px 12px 2px 1px #090e25;}
 .explore_button:focus {background-color: rgb(44, 9, 141); box-shadow: 12px 12px 2px 1px #090e25;}
 .explore_button:active {background-color: rgb(44, 9, 141); box-shadow: 12px 12px 2px 1px #090e25;}
+.explore_extra {
+    width: 60%;
+    height: 250px;
+    text-align: center;
+    border-radius: 10px;
+    border: white solid 2px;
+    margin-top: 70px;
+    margin-left: 30%;
+}
+.explore_extra_text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ccc;
+    padding: 30px 10px;
+}
+.fresko {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-style: italic;
+}
 /* */
 .fone2 {
     width: 100%;
